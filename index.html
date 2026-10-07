@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Command Center</title>
+  <meta name="description" content="Рабочее место управления: доступы, контроль списаний, сроки и решения. Публичная демонстрация на синтетических данных.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./pages-engine.js" defer></script>
+  <script src="./pages-adapter.js" defer></script>
+  <script src="./operations.js" defer></script>
+  <script src="./app.js" defer></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39;; img-src &#39;self&#39; data:; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;self&#39;">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#today"><span class="brand-symbol">C<span></span></span><strong>Command<br>Center</strong></a>
+    <p class="nav-label">ПСБ · демонстрация</p>
+    <nav id="nav" aria-label="Разделы управления"></nav>
+    <div class="sidebar-bottom"><span class="pilot-dot"></span><div><strong>MVP · браузерное демо</strong><small>Пять отделов · единая модель</small></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">Управление <span>/</span> <strong id="scope-label">Все отделы</strong></div><div class="top-controls"><label class="sr-only" for="department">Отдел</label><select id="department"></select><button class="quiet" id="refresh" title="Перечитать записи этого браузера">Обновить</button></div></header>
+    <div id="mode-banner" class="mode-banner"></div>
+    <main id="main" tabindex="-1"><div class="loading">Открываем Command Center…</div></main>
+    <footer>Публичная демонстрация. Только тестовые данные. Записи сохраняются в этом браузере; корпоративные системы, вход и рассылка писем не подключены.</footer>
+  </div>
+  <dialog id="modal" aria-labelledby="dialog-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,2780 @@
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-10-07T17:48:26.382800+03:00",
+  "state": {
+    "mode": "demo",
+    "today": "2026-10-07",
+    "readAt": "2026-10-07T17:48:26.382800+03:00",
+    "timezone": "Europe/Moscow",
+    "departments": [
+      {
+        "id": "data-storage",
+        "name": "Отдел развития систем обработки и хранения больших данных",
+        "short": "Обработка и хранение данных"
+      },
+      {
+        "id": "data-tech",
+        "name": "Отдел развития технологий больших данных",
+        "short": "Технологии больших данных"
+      },
+      {
+        "id": "marketing",
+        "name": "Отдел разработки систем анализа и управления маркетинговыми кампаниями",
+        "short": "Маркетинговые системы"
+      },
+      {
+        "id": "analysis",
+        "name": "Отдел системного анализа",
+        "short": "Системный анализ"
+      },
+      {
+        "id": "qa",
+        "name": "Отдел тестирования",
+        "short": "Тестирование"
+      }
+    ],
+    "packages": [
+      {
+        "id": "qa-example",
+        "name": "QA — пример комплекта",
+        "resources": [
+          "ИнфраМенеджер",
+          "ТЕЗИС",
+          "GitLab (кандидат)",
+          "Тестовый стенд (уточнить)"
+        ]
+      },
+      {
+        "id": "analyst-example",
+        "name": "Аналитик — пример комплекта",
+        "resources": [
+          "ТЕЗИС",
+          "ИнфраМенеджер",
+          "База знаний (уточнить)"
+        ]
+      },
+      {
+        "id": "data-example",
+        "name": "Данные — пример комплекта",
+        "resources": [
+          "ИнфраМенеджер",
+          "Каталог данных (уточнить)",
+          "Мониторинг pipeline (уточнить)"
+        ]
+      }
+    ],
+    "data": {
+      "people": [
+        {
+          "id": "demo-qa-01",
+          "departmentId": "qa",
+          "name": "Сотрудник 01",
+          "role": "Руководитель отдела",
+          "project": "ACRM",
+          "skills": [
+            "API",
+            "SQL"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-02",
+          "departmentId": "qa",
+          "name": "Сотрудник 02",
+          "role": "QA инженер",
+          "project": "Маркетинговые системы",
+          "skills": [
+            "Сценарии",
+            "Регрессия"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-2",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-03",
+          "departmentId": "qa",
+          "name": "Сотрудник 03",
+          "role": "QA инженер",
+          "project": "ACRM",
+          "skills": [
+            "API",
+            "SQL"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-3",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-04",
+          "departmentId": "qa",
+          "name": "Сотрудник 04",
+          "role": "QA инженер",
+          "project": "Маркетинговые системы",
+          "skills": [
+            "Сценарии",
+            "Регрессия"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-4",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-05",
+          "departmentId": "qa",
+          "name": "Сотрудник 05",
+          "role": "QA инженер",
+          "project": "ACRM",
+          "skills": [
+            "API",
+            "SQL"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-5",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-06",
+          "departmentId": "qa",
+          "name": "Сотрудник 06",
+          "role": "QA инженер",
+          "project": "Маркетинговые системы",
+          "skills": [
+            "Сценарии",
+            "Регрессия"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-6",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-07",
+          "departmentId": "qa",
+          "name": "Сотрудник 07",
+          "role": "QA инженер",
+          "project": "ACRM",
+          "skills": [
+            "API",
+            "SQL"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-7",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-08",
+          "departmentId": "qa",
+          "name": "Сотрудник 08",
+          "role": "QA инженер",
+          "project": "Маркетинговые системы",
+          "skills": [
+            "Сценарии",
+            "Регрессия"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-8",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-09",
+          "departmentId": "qa",
+          "name": "Сотрудник 09",
+          "role": "QA инженер",
+          "project": "ACRM",
+          "skills": [
+            "API",
+            "SQL"
+          ],
+          "availability": "absent",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-9",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-qa-10",
+          "departmentId": "qa",
+          "name": "Сотрудник 10",
+          "role": "QA инженер",
+          "project": "Маркетинговые системы",
+          "skills": [
+            "Сценарии",
+            "Регрессия"
+          ],
+          "availability": "available",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "person-10",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "requests": [
+        {
+          "id": "demo-request-1",
+          "departmentId": "qa",
+          "personId": "demo-qa-02",
+          "title": "Доступ к тестовому стенду",
+          "resources": [
+            "Тестовый стенд"
+          ],
+          "target": "ИнфраМенеджер",
+          "reason": "Пример заявки для пилота",
+          "status": "pending",
+          "externalId": "DEMO-1042",
+          "createdAt": "2026-10-03T00:00:00+03:00",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "request-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "expiries": [
+        {
+          "id": "demo-expiry-2",
+          "departmentId": "qa",
+          "personId": "demo-qa-02",
+          "resource": "Учётная запись тестового стенда",
+          "kind": "account",
+          "expiresOn": "2026-10-10",
+          "expiryState": "known",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "expiry-2",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-expiry-3",
+          "departmentId": "qa",
+          "personId": "demo-qa-03",
+          "resource": "Сертификат API — пример",
+          "kind": "certificate",
+          "expiresOn": "2026-10-18",
+          "expiryState": "known",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "expiry-3",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        },
+        {
+          "id": "demo-expiry-4",
+          "departmentId": "qa",
+          "personId": "demo-qa-04",
+          "resource": "Доступ к журналам — пример",
+          "kind": "access",
+          "expiresOn": null,
+          "expiryState": "unknown",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "expiry-4",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "time": [
+        {
+          "id": "demo-time-1",
+          "departmentId": "qa",
+          "personId": "demo-qa-02",
+          "date": "2026-10-07",
+          "project": "ACRM",
+          "hours": 5,
+          "note": "Демонстрационная запись",
+          "status": "draft",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "time-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "risks": [
+        {
+          "id": "demo-risk-1",
+          "departmentId": "qa",
+          "personId": "demo-qa-03",
+          "title": "Не назначен владелец тестовых данных — пример",
+          "severity": "high",
+          "dueOn": "2026-10-09",
+          "status": "open",
+          "createdAt": "2026-10-07T17:48:26.382800+03:00",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "risk-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "releases": [
+        {
+          "id": "demo-release-1",
+          "departmentId": "qa",
+          "title": "Пилотный релиз — пример",
+          "passed": 24,
+          "failed": 2,
+          "blocked": 3,
+          "notStarted": 5,
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "release-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "services": [
+        {
+          "id": "demo-env-1",
+          "departmentId": "qa",
+          "title": "TEST — демонстрационный стенд",
+          "type": "environment",
+          "status": "degraded",
+          "lastObservedAt": "2026-10-07T17:48:26.382800+03:00",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "env-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ],
+      "documents": [
+        {
+          "id": "demo-doc-1",
+          "departmentId": "qa",
+          "title": "Как подготовить заявку на доступ",
+          "text": "Выберите сотрудника и пример комплекта в разделе Доступы. Сохраните черновик, скопируйте текст и оформите заявку в штатной системе. Запишите её внешний номер. Выдача доступа проверяется отдельно. Пример комплекта не является утверждённой банковской ролью.",
+          "sourceRef": {
+            "system": "DEMO",
+            "instance": "synthetic",
+            "objectId": "doc-1",
+            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+          }
+        }
+      ]
+    },
+    "audit": [
+      {
+        "at": "2026-10-07T17:48:26.382800+03:00",
+        "action": "ruler:import",
+        "objectId": "2026-10"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "ИнфраМенеджер",
+        "status": "not_connected",
+        "detail": "Версия и разрешённый API не подтверждены"
+      },
+      {
+        "name": "ТЕЗИС",
+        "status": "not_connected",
+        "detail": "Назначение процессов и контракт уточняются"
+      },
+      {
+        "name": "Внутренняя LLM",
+        "status": "not_connected",
+        "detail": "Модель и endpoint пока не подключены"
+      },
+      {
+        "name": "Project Ruler",
+        "status": "not_connected",
+        "detail": "Проверка тестового импорта в браузере; корпоративный API не подключён"
+      },
+      {
+        "name": "Grafana",
+        "status": "links",
+        "detail": "Каталог ссылок; API и встраивание не подключены"
+      }
+    ],
+    "hostingMode": "github-pages",
+    "operations": {
+      "report": {
+        "period": "2026-10",
+        "through": "2026-10-06",
+        "rows": [
+          {
+            "personId": "demo-qa-01",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee01@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 01",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-02",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 0.0,
+            "missingHours": 32.0,
+            "missingDays": [
+              {
+                "date": "2026-10-01",
+                "hours": 8.0
+              },
+              {
+                "date": "2026-10-02",
+                "hours": 8.0
+              },
+              {
+                "date": "2026-10-05",
+                "hours": 8.0
+              },
+              {
+                "date": "2026-10-06",
+                "hours": 8.0
+              }
+            ],
+            "issues": [],
+            "blockers": [],
+            "status": "attention",
+            "email": "employee02@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 0.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 0.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 02",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-03",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 24.0,
+            "missingHours": 8.0,
+            "missingDays": [
+              {
+                "date": "2026-10-01",
+                "hours": 8.0
+              }
+            ],
+            "issues": [
+              {
+                "date": "2026-10-01",
+                "code": "project",
+                "text": "Проект не входит в подтверждённый список",
+                "entryId": "example-2-0"
+              }
+            ],
+            "blockers": [],
+            "status": "attention",
+            "email": "employee03@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 8.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 03",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-04",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 16.0,
+            "missingHours": 16.0,
+            "missingDays": [
+              {
+                "date": "2026-10-01",
+                "hours": 4.0
+              },
+              {
+                "date": "2026-10-02",
+                "hours": 4.0
+              },
+              {
+                "date": "2026-10-05",
+                "hours": 4.0
+              },
+              {
+                "date": "2026-10-06",
+                "hours": 4.0
+              }
+            ],
+            "issues": [],
+            "blockers": [],
+            "status": "attention",
+            "email": "employee04@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 8.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 8.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 04",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-05",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee05@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 05",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-06",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee06@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 06",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-07",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee07@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 07",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-08",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 32.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee08@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 08",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-09",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 0.0,
+            "validHours": 0.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [],
+            "status": "ok",
+            "email": "employee09@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 0.0,
+                "validHours": 0.0,
+                "unknown": false
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 0.0,
+                "validHours": 0.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 09",
+            "departmentId": "qa"
+          },
+          {
+            "personId": "demo-qa-10",
+            "period": "2026-10",
+            "through": "2026-10-06",
+            "expectedHours": 24.0,
+            "validHours": 32.0,
+            "missingHours": 0.0,
+            "missingDays": [],
+            "issues": [],
+            "blockers": [
+              "Есть дни с неизвестной персональной нормой"
+            ],
+            "status": "unknown",
+            "email": "employee10@example.invalid",
+            "sourceInstance": "DEMO-Project-Ruler",
+            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "weeks": [
+              {
+                "week": "2026-W40",
+                "days": 4,
+                "expectedHours": 8.0,
+                "validHours": 16.0,
+                "unknown": true
+              },
+              {
+                "week": "2026-W41",
+                "days": 2,
+                "expectedHours": 16.0,
+                "validHours": 16.0,
+                "unknown": false
+              }
+            ],
+            "name": "Сотрудник 10",
+            "departmentId": "qa"
+          }
+        ],
+        "schedule": [
+          {
+            "offset": 7,
+            "date": "2026-10-24"
+          },
+          {
+            "offset": 6,
+            "date": "2026-10-25"
+          },
+          {
+            "offset": 5,
+            "date": "2026-10-26"
+          },
+          {
+            "offset": 4,
+            "date": "2026-10-27"
+          },
+          {
+            "offset": 3,
+            "date": "2026-10-28"
+          }
+        ],
+        "quarterEnd": false,
+        "quarter": "2026-Q4",
+        "rule": "40h в неделю; формат 8h. Проверяем завершённые дни по персональному календарю с отсутствиями. Дефицит по дням не взаимозачитывается.",
+        "mailConfigured": false
+      },
+      "periods": [
+        "2026-10"
+      ],
+      "outbox": [],
+      "dashboards": [],
+      "worker": {
+        "available": false,
+        "checkedAt": null,
+        "error": null,
+        "feedConfigured": false
+      }
+    },
+    "csrfToken": "browser-local-demo"
+  },
+  "rulerSnapshots": {
+    "2026-10": {
+      "schemaVersion": 1,
+      "datasetType": "synthetic",
+      "period": "2026-10",
+      "source": {
+        "instance": "DEMO-Project-Ruler",
+        "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+        "coveredThrough": "2026-10-06",
+        "complete": true
+      },
+      "policy": {
+        "confirmed": true,
+        "maxAgeHours": 24,
+        "acceptedStatuses": [
+          "posted"
+        ]
+      },
+      "employees": [
+        {
+          "personId": "demo-qa-01",
+          "email": "employee01@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-0-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-0-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-0-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-0-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-02",
+          "email": "employee02@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": []
+        },
+        {
+          "personId": "demo-qa-03",
+          "email": "employee03@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-2-0",
+              "date": "2026-10-01",
+              "projectId": "WRONG",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-2-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-2-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-2-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-04",
+          "email": "employee04@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-3-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "4h",
+              "status": "posted"
+            },
+            {
+              "id": "example-3-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "4h",
+              "status": "posted"
+            },
+            {
+              "id": "example-3-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "4h",
+              "status": "posted"
+            },
+            {
+              "id": "example-3-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "4h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-05",
+          "email": "employee05@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-4-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-4-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-4-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-4-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-06",
+          "email": "employee06@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-5-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-5-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-5-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-5-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-07",
+          "email": "employee07@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-6-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-6-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-6-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-6-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-08",
+          "email": "employee08@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-7-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-7-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-7-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-7-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        },
+        {
+          "personId": "demo-qa-09",
+          "email": "employee09@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": []
+        },
+        {
+          "personId": "demo-qa-10",
+          "email": "employee10@example.invalid",
+          "expectedDays": [
+            {
+              "date": "2026-10-01",
+              "hours": null,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-02",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-03",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-04",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-05",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-06",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-07",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-08",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-09",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-10",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-11",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-12",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-13",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-14",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-15",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-16",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-17",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-18",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-19",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-20",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-21",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-22",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-23",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-24",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-25",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-26",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-27",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-28",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-29",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-30",
+              "hours": 8,
+              "reason": "Синтетический пример нормы / отсутствия"
+            },
+            {
+              "date": "2026-10-31",
+              "hours": 0,
+              "reason": "Синтетический пример нормы / отсутствия"
+            }
+          ],
+          "allowedProjects": [
+            "ACRM"
+          ],
+          "entries": [
+            {
+              "id": "example-9-0",
+              "date": "2026-10-01",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-9-1",
+              "date": "2026-10-02",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-9-4",
+              "date": "2026-10-05",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-9-5",
+              "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "genericTemplate": {
+    "schemaVersion": 1,
+    "datasetType": "synthetic",
+    "data": {
+      "people": [],
+      "requests": [],
+      "expiries": [],
+      "time": [],
+      "risks": [],
+      "releases": [],
+      "services": [],
+      "documents": []
+    }
+  }
+}
