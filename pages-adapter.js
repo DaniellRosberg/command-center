@@ -113,7 +113,12 @@ else{
  document.addEventListener('click',async event=>{
   const link=event.target.closest('a[href^="/api/"]');if(!link)return;event.preventDefault();
   const path=link.getAttribute('href');if(!['/api/export','/api/template','/api/ruler/template'].includes(path))return;
-  try{const value=await root.CommandCenterTransport.request(path);const a=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json;charset=utf-8'}));a.href=url;a.download=path.includes('/ruler/')?'project-ruler-template.json':path.endsWith('/export')?'command-center-export.json':'command-center-template.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch(error){if(typeof toast==='function')toast(error.message);}
+  try{
+   const value=await root.CommandCenterTransport.request(path),json=JSON.stringify(value,null,2),url=URL.createObjectURL(new Blob([json],{type:'application/json;charset=utf-8'}));
+   const filename=path.includes('/ruler/')?'project-ruler-template.json':path.endsWith('/export')?'command-center-export.json':'command-center-template.json';
+   openDialog(path.endsWith('/export')?'Экспорт тестовых данных':'Шаблон тестовых данных',`<p class="subtle">Сохраните JSON в файл или скопируйте его. Записи остаются в этом браузере.</p><label class="field">${e(filename)}<textarea id="request-copy" readonly rows="12">${e(json)}</textarea></label><div class="form-footer"><a class="export-link" href="${e(url)}" download="${e(filename)}">Скачать JSON</a><button type="button" data-action="copy-request">Скопировать JSON</button></div>`);
+   document.getElementById('modal').addEventListener('close',()=>URL.revokeObjectURL(url),{once:true});
+  }catch(error){if(typeof toast==='function')toast(error.message);}
  });
 }
 })(typeof window==='undefined'?{}:window);
