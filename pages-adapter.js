@@ -108,7 +108,7 @@ function createTransport({seed,research={},storage,storageKey,engine,clock=()=>n
 if(typeof module==='object'&&module.exports)module.exports={createTransport};
 else{
  const storageKey='command-center-pages:v1:'+new URL('.',location.href).pathname;
- const ready=Promise.all(['seed.json','research.json'].map(p=>fetch(new URL(p,location.href)).then(r=>{if(!r.ok)throw Error('Не удалось загрузить '+p);return r.json();}))).then(([seed,research])=>createTransport({seed,research,storage:localStorage,storageKey,engine:root.CCPageEngine,lock:navigator.locks?((key,fn)=>navigator.locks.request(key,fn)):undefined}));
+ const ready=Promise.all(['seed.json','research.json'].map(p=>fetch(new URL(p,location.href),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Не удалось загрузить '+p);return r.json();}))).then(([seed,research])=>createTransport({seed,research,storage:localStorage,storageKey,engine:root.CCPageEngine,lock:navigator.locks?((key,fn)=>navigator.locks.request(key,fn)):undefined}));
  root.CommandCenterTransport={request:async(path,body,key)=>(await ready).request(path,body,key)};
  document.addEventListener('click',async event=>{
   const link=event.target.closest('a[href^="/api/"]');if(!link)return;event.preventDefault();

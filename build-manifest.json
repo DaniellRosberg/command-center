@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-10-07T17:48:26.382800+03:00",
+  "builtAt": "2026-10-08T08:43:11.781268+03:00",
   "publication": "synthetic-browser-demo",
   "files": {
     ".nojekyll": "ad5276907c6b581028a0e87dd25a8d1cfba8a116fd27098434ad3b5024c801e2",
     "app.js": "17a7019133b2aeeb82d46ce8f775e6bf05eeda438e61441ce2edda4b85576ba7",
     "favicon.svg": "d60c378061c0ade1ff4778be5a5207633275012882877beb91dc611f30c4d7ff",
-    "index.html": "fe39c86456e235dd31dac8a7f4b0598113f95d683877c3fe0810f25248a491de",
+    "index.html": "e4474d4f6d07b60086912312ce1ce39ea64dc2bc8fe4dc97993b77943e87bc2f",
     "operations.js": "d4a6a87b35a2061660d6a7b35340bbea077f092a652ea95e8368125647fc2ea7",
-    "pages-adapter.js": "44a744f646540e23bd1e39cf15da6d8f9519b4607cf860e8979ead824de71ab3",
+    "pages-adapter.js": "ab410e92724b5214cb26b07816f9af9a544e0c44c4323e39a164686dd22afcde",
     "pages-engine.js": "a5e1d701d3d8f7920e44fd2fc1edcb431c91adba391335336bd965d1e2708ade",
     "research.json": "3caf854c9c2e864a642d1d67b604e676fde0ed0c6f4c812a5f8f934bc49102ba",
-    "seed.json": "0596950838e89462d86327636a6707b58e0b1ac2bb42b9285bbc1d16fe062eca",
+    "seed.json": "aed472f54c85a7bf386a7cea278626e21f8754d019d3f02aa4e22ca5d7e2fcef",
     "styles.css": "86b0d0b1aaad2ed363a85cb17c77e2a253e8fcb2114a2e84ccda3dae9d38cd0f"
   }
 }

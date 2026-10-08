@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-10-07T17:48:26.382800+03:00",
+  "builtAt": "2026-10-08T08:43:11.781268+03:00",
   "state": {
     "mode": "demo",
-    "today": "2026-10-07",
-    "readAt": "2026-10-07T17:48:26.382800+03:00",
+    "today": "2026-10-08",
+    "readAt": "2026-10-08T08:43:11.781268+03:00",
     "timezone": "Europe/Moscow",
     "departments": [
       {
@@ -80,7 +80,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -98,7 +98,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-2",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -116,7 +116,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-3",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -134,7 +134,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-4",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -152,7 +152,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-5",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -170,7 +170,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-6",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -188,7 +188,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-7",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -206,7 +206,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-8",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -224,7 +224,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-9",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -242,7 +242,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "person-10",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -259,12 +259,12 @@
           "reason": "Пример заявки для пилота",
           "status": "pending",
           "externalId": "DEMO-1042",
-          "createdAt": "2026-10-03T00:00:00+03:00",
+          "createdAt": "2026-10-04T00:00:00+03:00",
           "sourceRef": {
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "request-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -275,13 +275,13 @@
           "personId": "demo-qa-02",
           "resource": "Учётная запись тестового стенда",
           "kind": "account",
-          "expiresOn": "2026-10-10",
+          "expiresOn": "2026-10-11",
           "expiryState": "known",
           "sourceRef": {
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "expiry-2",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -290,13 +290,13 @@
           "personId": "demo-qa-03",
           "resource": "Сертификат API — пример",
           "kind": "certificate",
-          "expiresOn": "2026-10-18",
+          "expiresOn": "2026-10-19",
           "expiryState": "known",
           "sourceRef": {
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "expiry-3",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         },
         {
@@ -311,7 +311,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "expiry-4",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -320,7 +320,7 @@
           "id": "demo-time-1",
           "departmentId": "qa",
           "personId": "demo-qa-02",
-          "date": "2026-10-07",
+          "date": "2026-10-08",
           "project": "ACRM",
           "hours": 5,
           "note": "Демонстрационная запись",
@@ -329,7 +329,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "time-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -340,14 +340,14 @@
           "personId": "demo-qa-03",
           "title": "Не назначен владелец тестовых данных — пример",
           "severity": "high",
-          "dueOn": "2026-10-09",
+          "dueOn": "2026-10-10",
           "status": "open",
-          "createdAt": "2026-10-07T17:48:26.382800+03:00",
+          "createdAt": "2026-10-08T08:43:11.781268+03:00",
           "sourceRef": {
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "risk-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -364,7 +364,7 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "release-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -375,12 +375,12 @@
           "title": "TEST — демонстрационный стенд",
           "type": "environment",
           "status": "degraded",
-          "lastObservedAt": "2026-10-07T17:48:26.382800+03:00",
+          "lastObservedAt": "2026-10-08T08:43:11.781268+03:00",
           "sourceRef": {
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "env-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ],
@@ -394,14 +394,14 @@
             "system": "DEMO",
             "instance": "synthetic",
             "objectId": "doc-1",
-            "updatedAt": "2026-10-07T17:48:26.382800+03:00"
+            "updatedAt": "2026-10-08T08:43:11.781268+03:00"
           }
         }
       ]
     },
     "audit": [
       {
-        "at": "2026-10-07T17:48:26.382800+03:00",
+        "at": "2026-10-08T08:43:11.781268+03:00",
         "action": "ruler:import",
         "objectId": "2026-10"
       }
@@ -437,14 +437,14 @@
     "operations": {
       "report": {
         "period": "2026-10",
-        "through": "2026-10-06",
+        "through": "2026-10-07",
         "rows": [
           {
             "personId": "demo-qa-01",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -452,7 +452,7 @@
             "status": "ok",
             "email": "employee01@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -463,9 +463,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -475,10 +475,10 @@
           {
             "personId": "demo-qa-02",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
             "validHours": 0.0,
-            "missingHours": 32.0,
+            "missingHours": 40.0,
             "missingDays": [
               {
                 "date": "2026-10-01",
@@ -495,6 +495,10 @@
               {
                 "date": "2026-10-06",
                 "hours": 8.0
+              },
+              {
+                "date": "2026-10-07",
+                "hours": 8.0
               }
             ],
             "issues": [],
@@ -502,7 +506,7 @@
             "status": "attention",
             "email": "employee02@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -513,8 +517,8 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
                 "validHours": 0.0,
                 "unknown": false
               }
@@ -525,9 +529,9 @@
           {
             "personId": "demo-qa-03",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 24.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 32.0,
             "missingHours": 8.0,
             "missingDays": [
               {
@@ -547,7 +551,7 @@
             "status": "attention",
             "email": "employee03@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -558,9 +562,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -570,10 +574,10 @@
           {
             "personId": "demo-qa-04",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 16.0,
-            "missingHours": 16.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 20.0,
+            "missingHours": 20.0,
             "missingDays": [
               {
                 "date": "2026-10-01",
@@ -590,6 +594,10 @@
               {
                 "date": "2026-10-06",
                 "hours": 4.0
+              },
+              {
+                "date": "2026-10-07",
+                "hours": 4.0
               }
             ],
             "issues": [],
@@ -597,7 +605,7 @@
             "status": "attention",
             "email": "employee04@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -608,9 +616,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 8.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 12.0,
                 "unknown": false
               }
             ],
@@ -620,9 +628,9 @@
           {
             "personId": "demo-qa-05",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -630,7 +638,7 @@
             "status": "ok",
             "email": "employee05@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -641,9 +649,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -653,9 +661,9 @@
           {
             "personId": "demo-qa-06",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -663,7 +671,7 @@
             "status": "ok",
             "email": "employee06@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -674,9 +682,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -686,9 +694,9 @@
           {
             "personId": "demo-qa-07",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -696,7 +704,7 @@
             "status": "ok",
             "email": "employee07@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -707,9 +715,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -719,9 +727,9 @@
           {
             "personId": "demo-qa-08",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 32.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 40.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -729,7 +737,7 @@
             "status": "ok",
             "email": "employee08@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -740,9 +748,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -752,7 +760,7 @@
           {
             "personId": "demo-qa-09",
             "period": "2026-10",
-            "through": "2026-10-06",
+            "through": "2026-10-07",
             "expectedHours": 0.0,
             "validHours": 0.0,
             "missingHours": 0.0,
@@ -762,7 +770,7 @@
             "status": "ok",
             "email": "employee09@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -773,7 +781,7 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
+                "days": 3,
                 "expectedHours": 0.0,
                 "validHours": 0.0,
                 "unknown": false
@@ -785,9 +793,9 @@
           {
             "personId": "demo-qa-10",
             "period": "2026-10",
-            "through": "2026-10-06",
-            "expectedHours": 24.0,
-            "validHours": 32.0,
+            "through": "2026-10-07",
+            "expectedHours": 32.0,
+            "validHours": 40.0,
             "missingHours": 0.0,
             "missingDays": [],
             "issues": [],
@@ -797,7 +805,7 @@
             "status": "unknown",
             "email": "employee10@example.invalid",
             "sourceInstance": "DEMO-Project-Ruler",
-            "capturedAt": "2026-10-07T17:48:26.382800+03:00",
+            "capturedAt": "2026-10-08T08:43:11.781268+03:00",
             "weeks": [
               {
                 "week": "2026-W40",
@@ -808,9 +816,9 @@
               },
               {
                 "week": "2026-W41",
-                "days": 2,
-                "expectedHours": 16.0,
-                "validHours": 16.0,
+                "days": 3,
+                "expectedHours": 24.0,
+                "validHours": 24.0,
                 "unknown": false
               }
             ],
@@ -866,8 +874,8 @@
       "period": "2026-10",
       "source": {
         "instance": "DEMO-Project-Ruler",
-        "capturedAt": "2026-10-07T17:48:26.382800+03:00",
-        "coveredThrough": "2026-10-06",
+        "capturedAt": "2026-10-08T08:43:11.781268+03:00",
+        "coveredThrough": "2026-10-07",
         "complete": true
       },
       "policy": {
@@ -1066,6 +1074,13 @@
             {
               "id": "example-0-5",
               "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-0-6",
+              "date": "2026-10-07",
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
@@ -1428,6 +1443,13 @@
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
+            },
+            {
+              "id": "example-2-6",
+              "date": "2026-10-07",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
             }
           ]
         },
@@ -1619,6 +1641,13 @@
             {
               "id": "example-3-5",
               "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "4h",
+              "status": "posted"
+            },
+            {
+              "id": "example-3-6",
+              "date": "2026-10-07",
               "projectId": "ACRM",
               "hours": "4h",
               "status": "posted"
@@ -1816,6 +1845,13 @@
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
+            },
+            {
+              "id": "example-4-6",
+              "date": "2026-10-07",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
             }
           ]
         },
@@ -2007,6 +2043,13 @@
             {
               "id": "example-5-5",
               "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-5-6",
+              "date": "2026-10-07",
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
@@ -2204,6 +2247,13 @@
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
+            },
+            {
+              "id": "example-6-6",
+              "date": "2026-10-07",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
             }
           ]
         },
@@ -2395,6 +2445,13 @@
             {
               "id": "example-7-5",
               "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-7-6",
+              "date": "2026-10-07",
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
@@ -2754,6 +2811,13 @@
             {
               "id": "example-9-5",
               "date": "2026-10-06",
+              "projectId": "ACRM",
+              "hours": "8h",
+              "status": "posted"
+            },
+            {
+              "id": "example-9-6",
+              "date": "2026-10-07",
               "projectId": "ACRM",
               "hours": "8h",
               "status": "posted"
